@@ -1,0 +1,6 @@
+$ mkdir -p "/home/bouzidi/documents/SE202/mohamed-bouzidi/tp-led-matrix/target/thumbv7em-none-eabihf/debug/build/az-93d9805c291291e0/out/try_track_caller"
+$ cd "/home/bouzidi/documents/SE202/mohamed-bouzidi/tp-led-matrix/target/thumbv7em-none-eabihf/debug/build/az-93d9805c291291e0/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/bouzidi/documents/SE202/mohamed-bouzidi/tp-led-matrix/target/thumbv7em-none-eabihf/debug/build/az-93d9805c291291e0/out/try_track_caller/try_track_caller.rs"
+$ cd "/home/bouzidi/documents/SE202/mohamed-bouzidi/tp-led-matrix/target/thumbv7em-none-eabihf/debug/build/az-93d9805c291291e0/out/try_track_caller" && "/home/bouzidi/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/bouzidi/documents/SE202/mohamed-bouzidi/tp-led-matrix/target/thumbv7em-none-eabihf/debug/build/az-93d9805c291291e0/out/try_track_caller"
